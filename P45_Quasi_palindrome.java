@@ -50,11 +50,9 @@ public class P45_Quasi_palindrome {
 			s1 = s1.substring(0, s1.length() - m);
 		}
 		if (flag == 1 && Palindrome(s1)) {
-			System.out.println("Quasi Palindrome");
-		} else if (flag == 0 && Palindrome(s1)) {
-			System.out.println("Palindrome");
+			System.out.println("yes");
 		} else {
-			System.out.println("Noo");
+			System.out.println("no");
 		}
 	}
 
