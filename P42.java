@@ -5,12 +5,9 @@ import java.util.*;
 public class P42 {
 
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		System.out.println("Enter N value : ");
+		Scanner in = new Scanner(System.in)
 		int n = in.nextInt();
-		System.out.println("Enter k value : ");
 		int k = in.nextInt();
-		System.out.println("Enter the " + n + " elements : ");
 		int[] ar = new int[n];
 		for (int i = 0; i < n; i++) {
 			ar[i] = in.nextInt();
